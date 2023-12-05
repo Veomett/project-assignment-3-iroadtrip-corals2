@@ -26,4 +26,5 @@ These data structures are built when the constructor of IRoadTrip is called. It 
             not in name2id
             
         buildbigHash(adjacents): builds HashMap "bighash" with stateids as keys gotten from name2id and a HashMap "smallhash" as value. 
-            smallhash holds all the bordering country's stateids as keys and km distance between the capitols as values. Uses 
+            smallhash holds all the bordering country's stateids as keys and km distance between the capitols as values. Uses name2id, adjacents,
+            and distances to complie the data. 
