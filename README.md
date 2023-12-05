@@ -22,7 +22,8 @@ These data structures are built when the constructor of IRoadTrip is called. It 
             are put together to be the key (String). The value (Integer) is the kilometer distance between their capitols.
             
         buildadjacents(borders):  create HashMap "adjacents" of stateids using borders.txt file. key is the stateid of the country before the 
-            "=" and value is an arraylist of the stateids of the countries after the "="
+            "=" and value is an arraylist of the stateids of the countries after the "=." Accounts for "()" and ignores countries that are
+            not in name2id
             
         buildbigHash(adjacents): builds HashMap "bighash" with stateids as keys gotten from name2id and a HashMap "smallhash" as value. 
-            smallhash holds all the bordering country's stateids as keys and km distance between the capitols as values
+            smallhash holds all the bordering country's stateids as keys and km distance between the capitols as values. Uses 
