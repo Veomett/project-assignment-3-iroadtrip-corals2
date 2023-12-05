@@ -10,7 +10,11 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-//makes a hashmap with country names as keys and hashmaps [of adjacent country names as keys and capitol distances as values] as values
+/* @author Cora Schmidt
+@date 12/5/23
+IRoadTrip is a Java program that helps users find the shortest path between the capitals of two countries, 
+considering the distances between them. The program reads input files containing information about country borders, 
+capital distances, and country names to build a graph representation of the relationships between countries.*/
 
 //terminal call: java IRoadTrip borders.txt capdist.csv state_name.tsv
 
