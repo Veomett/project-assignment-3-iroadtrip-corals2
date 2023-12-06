@@ -258,6 +258,7 @@ class IRoadTrip {
         name2id.put("United Kingdom", "UK");
         name2id.put("East Timor", "ETM");
         name2id.put("Timor-Leste", "ETM");
+        name2id.put("Romania", "RUM");
 
         // weird comma corrections / alternate name corrections
         name2id.put("The Bahamas", "BHM");
@@ -267,6 +268,7 @@ class IRoadTrip {
         name2id.put("US", "USA");
         name2id.put("USA", "USA");
         name2id.put("The United Kingdom", "UK");
+        
 
         // not in capdist file, must pull out
         name2id.remove("South Sudan");
