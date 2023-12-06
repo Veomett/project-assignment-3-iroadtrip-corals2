@@ -256,6 +256,8 @@ class IRoadTrip {
         name2id.put("Tanganyika", "TAZ");
         name2id.put("UK", "UK");
         name2id.put("United Kingdom", "UK");
+        name2id.put("East Timor", "ETM");
+        name2id.put("Timor-Leste", "ETM");
 
         // weird comma corrections / alternate name corrections
         name2id.put("The Bahamas", "BHM");
